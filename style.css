@@ -1,0 +1,40 @@
+html,
+body ,
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item>div {
+    height: 100%;
+}
+
+.carousel-item>div {
+    display: flex;
+}
+
+.blog-text {
+    color: #ffffff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.row {
+    height: 100%;
+}
+
+.bg-image-1 {
+    background-image: url(cmdrgarud.jpg);
+}
+
+.bg-image-1:after {
+    content: "";
+    background: url(stripes.png) repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.2;
+}
