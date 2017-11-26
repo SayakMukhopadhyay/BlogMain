@@ -1,13 +1,13 @@
 html,
-body ,
+body,
 .carousel,
 .carousel-inner,
-.carousel-item,
-.carousel-item>div {
+.carousel-item {
     height: 100%;
 }
 
-.carousel-item>div {
+.bg-image-1 {
+    height: 100%;
     display: flex;
 }
 
@@ -18,6 +18,14 @@ body ,
     flex-direction: column;
     align-items: center;
     z-index: 1;
+}
+
+.image-courtesy {
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    height: auto;
+    margin: 10px;
 }
 
 .row {
